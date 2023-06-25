@@ -39,71 +39,72 @@ body {
   /* max-width: 1280px; */
   /* margin: 0 auto; */
   /* padding: 2rem; */
-  background-color: #282D35;
-  border: solid 1px red;
+  background-color: #23252C;
+  /* border: solid 1px red; */
 }
+
+/* Card component */
 
 .card--container {
-  border: solid 1px rgb(0, 60, 255);
+  /* border: solid 1px rgb(0, 60, 255); */
+  position: relative;
 }
 
-nav {
+/* Navbar component */
+
+.nav--container {
   display: flex;
   align-items: center;
   background-color: #21222A;
   height: 90px;
   padding: 30px 25px;
-  border: solid 1px rgb(255, 204, 0);
+  /* position: relative; */
+  /* border: solid 1px rgb(255, 204, 0); */
 }
-
 .nav--logo_text, .nav--title {
   margin: 0;
 }
-
 .nav--logo_text {
   margin-right: auto;
   color: #61DAFB;
   font-weight: 700;
   font-size: 22px;
 }
-
 .nav--title {
   color: #DEEBF8;
   font-weight: 600;
 }
-
 .nav--icon {
   height: 30px;
   margin-right: 7px;
 }
 
-main {
+/* Main component */
+
+.main--card {
   padding: 57px 27px;
   color: white;
-  border: solid 1px rgb(94, 255, 0);
+  background-color: #282D35;
+  /* position: relative; */
+  /* border: solid 1px rgb(94, 255, 0); */
 }
-
-.main-card {
+.main--card {
   margin: 0 auto;
 }
-
 .main--title {
   margin: 0;
   font-size: 39px;
   letter-spacing: -0.05em;
 }
-
 .main--facts {
   margin-top: 46px;
   max-width: 400px;
   max-width: 80%;
 }
-
 .main--facts > li {
   line-height: 19px;
   padding-block: 10px;
 }
-
 .main--facts > li::marker {
   color: #61DAFB;
   font-size: 1.5em;
