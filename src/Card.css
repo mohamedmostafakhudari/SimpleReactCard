@@ -1,9 +1,14 @@
 /* Glowing effect - applied to Card only */
 
+.card--container {
+    /* border: solid 1px rgb(0, 60, 255); */
+    position: relative;
+}
+
 .card--container::before,
 .card--container::after {
     content: '';
-    z-index: -1;
+    z-index: 1;
     position: absolute;
     width: calc(100% + 30px);
     height: calc(100% + 30px);

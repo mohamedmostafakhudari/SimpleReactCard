@@ -43,13 +43,6 @@ body {
   /* border: solid 1px red; */
 }
 
-/* Card component */
-
-.card--container {
-  /* border: solid 1px rgb(0, 60, 255); */
-  position: relative;
-}
-
 /* Navbar component */
 
 .nav--container {
@@ -59,6 +52,7 @@ body {
   height: 90px;
   padding: 30px 25px;
   position: relative;
+  z-index: 2;
   /* border: solid 1px rgb(255, 204, 0); */
 }
 .nav--logo_text, .nav--title {
@@ -86,6 +80,7 @@ body {
   color: white;
   background-color: #282D35;
   position: relative;
+  z-index: 2;
   /* border: solid 1px rgb(94, 255, 0); */
 }
 .main--card {
