@@ -58,7 +58,7 @@ body {
   background-color: #21222A;
   height: 90px;
   padding: 30px 25px;
-  /* position: relative; */
+  position: relative;
   /* border: solid 1px rgb(255, 204, 0); */
 }
 .nav--logo_text, .nav--title {
@@ -85,7 +85,7 @@ body {
   padding: 57px 27px;
   color: white;
   background-color: #282D35;
-  /* position: relative; */
+  position: relative;
   /* border: solid 1px rgb(94, 255, 0); */
 }
 .main--card {
